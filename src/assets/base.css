@@ -1,0 +1,40 @@
+/* color palette */
+:root {
+  --very-ligth-blue: #bee5fa;
+  --light-blue: #549FEAFF;
+  --light-grey: #1e3d5d;
+  --white: #FFFFFF;
+}
+
+/* semantic color variables for this project */
+:root {
+  --main-background-color: var(--very-ligth-blue);
+  --primay-color: var(--light-blue);
+  --secondary-color: var(--light-grey);
+  --secondary-color: var(--light-grey);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
